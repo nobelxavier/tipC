@@ -14,6 +14,7 @@
 		A9A0114C1E6BDB910084D885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A0114A1E6BDB910084D885 /* LaunchScreen.storyboard */; };
 		A9A011571E6BDB910084D885 /* tipcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A011561E6BDB910084D885 /* tipcTests.swift */; };
 		A9A011621E6BDB910084D885 /* tipcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A011611E6BDB910084D885 /* tipcUITests.swift */; };
+		A9A011741E7226740084D885 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A011731E7226740084D885 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A9A0115D1E6BDB910084D885 /* tipcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A011611E6BDB910084D885 /* tipcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipcUITests.swift; sourceTree = "<group>"; };
 		A9A011631E6BDB910084D885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9A011731E7226740084D885 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A9A011481E6BDB910084D885 /* Assets.xcassets */,
 				A9A0114A1E6BDB910084D885 /* LaunchScreen.storyboard */,
 				A9A0114D1E6BDB910084D885 /* Info.plist */,
+				A9A011731E7226740084D885 /* SettingsViewController.swift */,
 			);
 			path = tipc;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				A9A011441E6BDB910084D885 /* ViewController.swift in Sources */,
 				A9A011421E6BDB910084D885 /* AppDelegate.swift in Sources */,
+				A9A011741E7226740084D885 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tipc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.tipc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tipc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.tipc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
