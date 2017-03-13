@@ -125,21 +125,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="nJE-Oo-tBs">
-                                <rect key="frame" x="30" y="150" width="256" height="29"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="5Bv-AM-tgV">
+                                <rect key="frame" x="29" y="161" width="276" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="18%"/>
                                     <segment title="20%"/>
                                     <segment title="25%"/>
                                 </segments>
+                                <color key="tintColor" red="1" green="0.70519000060000003" blue="0.027262051499999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="changeTip:" destination="BYZ-38-t0r" eventType="valueChanged" id="Uor-X2-L7c"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="1" green="0.70519000060000003" blue="0.027262051499999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <connections>
-                            <outlet property="percentageController" destination="nJE-Oo-tBs" id="X3W-1E-fCz"/>
-                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="TipC" id="BBr-2M-Hcz"/>
                 </viewController>

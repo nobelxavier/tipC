@@ -99,13 +99,13 @@
 		A9A011401E6BDB910084D885 /* tipc */ = {
 			isa = PBXGroup;
 			children = (
+				A9A011731E7226740084D885 /* SettingsViewController.swift */,
 				A9A011411E6BDB910084D885 /* AppDelegate.swift */,
 				A9A011431E6BDB910084D885 /* ViewController.swift */,
 				A9A011451E6BDB910084D885 /* Main.storyboard */,
 				A9A011481E6BDB910084D885 /* Assets.xcassets */,
 				A9A0114A1E6BDB910084D885 /* LaunchScreen.storyboard */,
 				A9A0114D1E6BDB910084D885 /* Info.plist */,
-				A9A011731E7226740084D885 /* SettingsViewController.swift */,
 			);
 			path = tipc;
 			sourceTree = "<group>";
@@ -509,6 +509,7 @@
 				A9A011681E6BDB910084D885 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9A011691E6BDB910084D885 /* Build configuration list for PBXNativeTarget "tipcTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +518,7 @@
 				A9A0116B1E6BDB910084D885 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9A0116C1E6BDB910084D885 /* Build configuration list for PBXNativeTarget "tipcUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +527,7 @@
 				A9A0116E1E6BDB910084D885 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
